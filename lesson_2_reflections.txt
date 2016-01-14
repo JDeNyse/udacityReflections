@@ -5,3 +5,23 @@ Git creates a repository with no commits. You need to do this to allow you to us
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It allows files to be staged to be commited to the repository. It offers control over what you save to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can make sure you are only commiting what is logical to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are useful for testing new ideas without putting new code into production.
+
+How do the diagrams help you visualize the branch structure?
+
+They provide a logical flow for each branch in a repository.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The changes since the original spilt are added together into one branch. This is represented by the branches coming together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic mergers are faster but they can sometimes get things wrong which doesn't happen in manual commits except for human error.
